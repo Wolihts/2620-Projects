@@ -2,8 +2,7 @@ from PIL import Image
 import random
 
 # I did not add image.open or image.save so that this function can be imported and used elsewhere
-# image = Image.open("eagle.jpg")
-# raster = image.load()
+# image = Image.open("test.jpg")
 #use example in Index.py for how to call this function and save the result
 
 
@@ -83,3 +82,4 @@ def posterize(image, k=2, iterations=1, top_colors=20000):
                     r[x, y] = (new[0],)
 
     return img
+
